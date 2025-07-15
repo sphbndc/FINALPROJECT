@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-size: 17px;
+  color: #222;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: gold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h2,
+h3,
+ul {
+  margin-bottom: 20px;
+  color: #111;
+  font-weight: bold;
+}
+
+aside h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.list-group-item a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
+
+img.img-fluid {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+main p {
+  font-size: 16px;
+  text-align: justify;
+  color: #444;
+}
+
+.text-center b {
+  font-size: 18px;
+}
+
+footer img {
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 2px solid #ffc107;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.contact-form {
+  background-color: #2c2f33;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.15);
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #1f2225;
+  color: #fff;
+  border: 1px solid #666;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: gold;
+  outline: none;
+  box-shadow: 0 0 0 0.1rem rgba(255, 215, 0, 0.5);
+}
